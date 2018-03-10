@@ -2,4 +2,20 @@
   margin: 0;
   padding: 0;
 }
-
+.recttangle{
+  width: 230px;
+  margin: 50px auto;
+}
+.notNull{
+  color: red;
+}
+#recttangle__calc{
+  margin-top: 3px;
+  margin-left: 53px;
+}
+#widthTip{
+  color: red;
+}
+#heightTip{
+  color: red;
+}
