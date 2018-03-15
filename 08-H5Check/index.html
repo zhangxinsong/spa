@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>矩形计算</title>
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+<div class="recttangle">
+  <form>
+  <label for="recttangle__width">宽度：</label>
+  <input id="recttangle__width" type="number" step="0.000001" min="0" required="" autofocus="">
+  <span class="notNull"> *</span>
+  <div id="widthTip"></div>
+  <label for="recttangle__height">高度：</label>
+  <input id="recttangle__height" type="number" step="0.000001" min="0" required="" autofocus="">
+  <span class="notNull"> *</span>
+  <div id="heightTip"></div>
+  <input type="submit" id="recttangle__calc" value="计算">
+</form>
+  <label for="">周长：</label>
+  <input id="recttangle__perimeter" type="text" disabled="disabled">
+  <br>
+  <label for="">面积：</label>
+  <input id="recttangle__area" type="text" disabled="disabled">
+</div>
+</body>
+</html>
