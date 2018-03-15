@@ -8,13 +8,13 @@
 </head>
 <body>
 <div class="recttangle">
-  <form>
+  <form onsubmit="false">
   <label for="recttangle__width">宽度：</label>
-  <input id="recttangle__width" type="number" step="0.000001" min="0" required="" autofocus="">
+  <input id="recttangle__width" type="number" min="0" step="0.000001" required autofocus>
   <span class="notNull"> *</span>
   <div id="widthTip"></div>
   <label for="recttangle__height">高度：</label>
-  <input id="recttangle__height" type="number" step="0.000001" min="0" required="" autofocus="">
+  <input id="recttangle__height" type="number" min="0" step="0.000001" required>
   <span class="notNull"> *</span>
   <div id="heightTip"></div>
   <input type="submit" id="recttangle__calc" value="计算">

@@ -4,8 +4,8 @@ window.onload = function(){
   var perimeter = document.getElementById('recttangle__perimeter');
   var area = document.getElementById('recttangle__area');
 
-  document.getElementById('recttangle__calc').onclick = function(e){
-    e.preventDefault();
+  document.getElementById('recttangle__calc').onclick = function calc(){
+
     perimeter.value = parseFloat((width.value*2+height.value*2).toFixed(10));
     area.value = parseFloat((width.value*height.value).toFixed(10));
   }
