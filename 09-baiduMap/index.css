@@ -1,0 +1,13 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#container{
+  margin: 100px auto 0 auto;  
+  height: 500px;
+  width: 80%;
+}
