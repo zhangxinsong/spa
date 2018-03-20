@@ -1,0 +1,11 @@
+body{
+  margin:0;
+  padding:0;
+}
+#one{
+  width: 200px;
+  margin-left: 20px;
+}
+.one{
+  margin-left: 20px;
+}
