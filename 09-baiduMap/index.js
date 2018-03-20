@@ -4,7 +4,7 @@ window.onload = function(){
 
   map.addControl(new BMap.MapTypeControl({
     mapTypes:[
-    BMap_NORMAL_MAP,
+    BMAP_NORMAL_MAP,
     BMAP_HYBRID_MAP
     ]}));
   map.enableScrollWheelZoom(true);
@@ -17,5 +17,5 @@ window.onload = function(){
   map.addOverlay(marker);
   marker.addEventListener("click",function(){
     this.openInfoWindow(infoWindow);
-  })
+  });
  }
